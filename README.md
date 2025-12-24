@@ -21,13 +21,18 @@ universal_robot
 ur5e_moveit_config
 
 Chạy demo
+
+Mở terminal 1
+
 source ~/ur5_ws/devel/setup.bash
+
 roslaunch ur5e_moveit_config demo.launch
 
 
-Mở terminal khác:
+Mở terminal 2
 
 source ~/ur5_ws/devel/setup.bash
+
 rosrun ur5e_moveit_config ur5_moveit_control.py
 
 Chức năng chính
