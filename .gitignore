@@ -1,0 +1,20 @@
+# ROS build
+build/
+devel/
+install/
+log/
+
+# catkin / colcon
+*.bag
+*.pyc
+__pycache__/
+
+# vscode
+.vscode/
+
+# system
+.DS_Store
+
+# ignore compiled stuff
+*.o
+*.so

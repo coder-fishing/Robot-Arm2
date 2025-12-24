@@ -1,0 +1,3 @@
+cd ~/ur5_ws
+chmod +x run_ur5.sh
+./run_ur5.sh
